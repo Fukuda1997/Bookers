@@ -51,12 +51,10 @@ group :development do
 end
 
 group :test do
-  # Adds support for Capybara system testing and selenium driver
   gem 'capybara', '>= 2.15'
   gem 'rspec-rails'
-  # Easy installation and use of chromedriver to run system tests with Chrome
   gem 'factory_bot_rails'
-  gem ''
+  gem 'faker'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
